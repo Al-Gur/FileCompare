@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class FileCompare {
+public class CompareAppl {
     public static void main(String[] args) {
         if (args.length != 2) {
             System.out.println("Two names of compared files must be in the command line!");
